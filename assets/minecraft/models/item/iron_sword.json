@@ -1,0 +1,289 @@
+{
+"__comment": "Designed by Arraypro with BDcraft Cubik PRO 0.93 Beta - http://bdcraft.net",
+"textures": {
+    "quartz_block_chiseled_top": "blocks/quartz_block_chiseled_top",
+    "coal_block": "blocks/coal_block",
+    "anvil_base": "blocks/anvil_base",
+    "iron_block": "blocks/iron_block",
+    "stone_slab_top": "blocks/stone_slab_top",
+    "hardened_clay_stained_cyan": "blocks/hardened_clay_stained_cyan"
+},
+"elements": [ 
+{
+    "from": [ 7.5, 10, 7.5 ],
+    "to": [ 8, 22.5, 8 ],
+    "faces": {
+        "down":  { "uv": [ 8.5, 8, 8, 7.5 ], "texture": "#iron_block" },
+        "up":    { "uv": [ 7.5, 7.5, 8, 8 ], "texture": "#iron_block" },
+        "north": { "uv": [ 8, 0, 8.5, 6 ], "texture": "#iron_block" },
+        "south": { "uv": [ 7.5, 0, 8, 6 ], "texture": "#iron_block" },
+        "west":  { "uv": [ 7.5, 0, 8, 6 ], "texture": "#iron_block" },
+        "east":  { "uv": [ 8, 0, 8.5, 6 ], "texture": "#iron_block" }
+    }
+},
+{
+    "from": [ 7.5, 8, 7 ],
+    "to": [ 8, 20, 7.5 ],
+    "faces": {
+        "down":  { "uv": [ 8.5, 7.5, 8, 7 ], "texture": "#iron_block" },
+        "up":    { "uv": [ 7.5, 7, 8, 7.5 ], "texture": "#iron_block" },
+        "north": { "uv": [ 8, 0, 8.5, 8 ], "texture": "#iron_block" },
+        "south": { "uv": [ 7.5, 0, 8, 8 ], "texture": "#iron_block" },
+        "west":  { "uv": [ 7, 0, 7.5, 8 ], "texture": "#iron_block" },
+        "east":  { "uv": [ 8.5, 0, 9, 8 ], "texture": "#iron_block" }
+    }
+},
+{
+    "from": [ 7.5, 8, 8 ],
+    "to": [ 8, 20, 8.5 ],
+    "faces": {
+        "down":  { "uv": [ 8.5, 8.5, 8, 8 ], "texture": "#iron_block" },
+        "up":    { "uv": [ 7.5, 8, 8, 8.5 ], "texture": "#iron_block" },
+        "north": { "uv": [ 8, 0, 8.5, 8 ], "texture": "#iron_block" },
+        "south": { "uv": [ 7.5, 0, 8, 8 ], "texture": "#iron_block" },
+        "west":  { "uv": [ 8, 0, 8.5, 8 ], "texture": "#iron_block" },
+        "east":  { "uv": [ 7.5, 0, 8, 8 ], "texture": "#iron_block" }
+    }
+},
+{
+    "from": [ 7.5, 7, 8.5 ],
+    "to": [ 8, 14.5, 9 ],
+    "faces": {
+        "down":  { "uv": [ 8.5, 9, 8, 8.5 ], "texture": "#iron_block" },
+        "up":    { "uv": [ 7.5, 8.5, 8, 9 ], "texture": "#iron_block" },
+        "north": { "uv": [ 8, 1.5, 8.5, 9 ], "texture": "#iron_block" },
+        "south": { "uv": [ 7.5, 1.5, 8, 9 ], "texture": "#iron_block" },
+        "west":  { "uv": [ 8.5, 1.5, 9, 9 ], "texture": "#iron_block" },
+        "east":  { "uv": [ 7, 1.5, 7.5, 9 ], "texture": "#iron_block" }
+    }
+},
+{
+    "from": [ 7.5, 7, 6.5 ],
+    "to": [ 8, 14.5, 7 ],
+    "faces": {
+        "down":  { "uv": [ 8.5, 7, 8, 6.5 ], "texture": "#iron_block" },
+        "up":    { "uv": [ 7.5, 6.5, 8, 7 ], "texture": "#iron_block" },
+        "north": { "uv": [ 8, 1.5, 8.5, 9 ], "texture": "#iron_block" },
+        "south": { "uv": [ 7.5, 1.5, 8, 9 ], "texture": "#iron_block" },
+        "west":  { "uv": [ 6.5, 1.5, 7, 9 ], "texture": "#iron_block" },
+        "east":  { "uv": [ 9, 1.5, 9.5, 9 ], "texture": "#iron_block" }
+    }
+},
+{
+    "from": [ 7, 7, 7 ],
+    "to": [ 8.5, 8, 8.5 ],
+    "faces": {
+        "down":  { "uv": [ 9, 8.5, 7.5, 7 ], "texture": "#stone_slab_top" },
+        "up":    { "uv": [ 7, 7, 8.5, 8.5 ], "texture": "#stone_slab_top" },
+        "north": { "uv": [ 7.5, 8, 9, 9 ], "texture": "#stone_slab_top" },
+        "south": { "uv": [ 7, 8, 8.5, 9 ], "texture": "#stone_slab_top" },
+        "west":  { "uv": [ 7, 8, 8.5, 9 ], "texture": "#stone_slab_top" },
+        "east":  { "uv": [ 7.5, 8, 9, 9 ], "texture": "#stone_slab_top" }
+    }
+},
+{
+    "from": [ 7, 8, 7.5 ],
+    "to": [ 8.5, 10, 8 ],
+    "faces": {
+        "down":  { "uv": [ 9, 8, 7.5, 7.5 ], "texture": "#stone_slab_top" },
+        "up":    { "uv": [ 7, 7.5, 8.5, 8 ], "texture": "#stone_slab_top" },
+        "north": { "uv": [ 7.5, 6, 9, 8 ], "texture": "#stone_slab_top" },
+        "south": { "uv": [ 7, 6, 8.5, 8 ], "texture": "#stone_slab_top" },
+        "west":  { "uv": [ 7.5, 6, 8, 8 ], "texture": "#stone_slab_top" },
+        "east":  { "uv": [ 8, 6, 8.5, 8 ], "texture": "#stone_slab_top" }
+    }
+},
+{
+    "from": [ 7, 6, 6 ],
+    "to": [ 8.5, 7.5, 7 ],
+    "faces": {
+        "down":  { "uv": [ 9, 7, 7.5, 6 ], "texture": "#stone_slab_top" },
+        "up":    { "uv": [ 7, 6, 8.5, 7 ], "texture": "#stone_slab_top" },
+        "north": { "uv": [ 7.5, 8.5, 9, 10 ], "texture": "#stone_slab_top" },
+        "south": { "uv": [ 7, 8.5, 8.5, 10 ], "texture": "#stone_slab_top" },
+        "west":  { "uv": [ 6, 8.5, 7, 10 ], "texture": "#stone_slab_top" },
+        "east":  { "uv": [ 9, 8.5, 10, 10 ], "texture": "#stone_slab_top" }
+    }
+},
+{
+    "from": [ 7, 6.5, 9 ],
+    "to": [ 8.5, 8, 10.5 ],
+    "faces": {
+        "down":  { "uv": [ 9, 10.5, 7.5, 9 ], "texture": "#stone_slab_top" },
+        "up":    { "uv": [ 7, 9, 8.5, 10.5 ], "texture": "#stone_slab_top" },
+        "north": { "uv": [ 7.5, 8, 9, 9.5 ], "texture": "#stone_slab_top" },
+        "south": { "uv": [ 7, 8, 8.5, 9.5 ], "texture": "#stone_slab_top" },
+        "west":  { "uv": [ 9, 8, 10.5, 9.5 ], "texture": "#stone_slab_top" },
+        "east":  { "uv": [ 5.5, 8, 7, 9.5 ], "texture": "#stone_slab_top" }
+    }
+},
+{
+    "from": [ 7, 6.5, 5 ],
+    "to": [ 8.5, 8, 6.5 ],
+    "faces": {
+        "down":  { "uv": [ 9, 6.5, 7.5, 5 ], "texture": "#stone_slab_top" },
+        "up":    { "uv": [ 7, 5, 8.5, 6.5 ], "texture": "#stone_slab_top" },
+        "north": { "uv": [ 7.5, 8, 9, 9.5 ], "texture": "#stone_slab_top" },
+        "south": { "uv": [ 7, 8, 8.5, 9.5 ], "texture": "#stone_slab_top" },
+        "west":  { "uv": [ 5, 8, 6.5, 9.5 ], "texture": "#stone_slab_top" },
+        "east":  { "uv": [ 9.5, 8, 11, 9.5 ], "texture": "#stone_slab_top" }
+    }
+},
+{
+    "from": [ 7, 7.5, 4.5 ],
+    "to": [ 8.5, 8.5, 5.5 ],
+    "faces": {
+        "down":  { "uv": [ 9, 5.5, 7.5, 4.5 ], "texture": "#stone_slab_top" },
+        "up":    { "uv": [ 7, 4.5, 8.5, 5.5 ], "texture": "#stone_slab_top" },
+        "north": { "uv": [ 7.5, 7.5, 9, 8.5 ], "texture": "#stone_slab_top" },
+        "south": { "uv": [ 7, 7.5, 8.5, 8.5 ], "texture": "#stone_slab_top" },
+        "west":  { "uv": [ 4.5, 7.5, 5.5, 8.5 ], "texture": "#stone_slab_top" },
+        "east":  { "uv": [ 10.5, 7.5, 11.5, 8.5 ], "texture": "#stone_slab_top" }
+    }
+},
+{
+    "from": [ 7, 7.5, 10 ],
+    "to": [ 8.5, 8.5, 11 ],
+    "faces": {
+        "down":  { "uv": [ 9, 11, 7.5, 10 ], "texture": "#stone_slab_top" },
+        "up":    { "uv": [ 7, 10, 8.5, 11 ], "texture": "#stone_slab_top" },
+        "north": { "uv": [ 7.5, 7.5, 9, 8.5 ], "texture": "#stone_slab_top" },
+        "south": { "uv": [ 7, 7.5, 8.5, 8.5 ], "texture": "#stone_slab_top" },
+        "west":  { "uv": [ 10, 7.5, 11, 8.5 ], "texture": "#stone_slab_top" },
+        "east":  { "uv": [ 5, 7.5, 6, 8.5 ], "texture": "#stone_slab_top" }
+    }
+},
+{
+    "from": [ 7, 6, 8.5 ],
+    "to": [ 8.5, 7.5, 9.5 ],
+    "faces": {
+        "down":  { "uv": [ 9, 9.5, 7.5, 8.5 ], "texture": "#stone_slab_top" },
+        "up":    { "uv": [ 7, 8.5, 8.5, 9.5 ], "texture": "#stone_slab_top" },
+        "north": { "uv": [ 7.5, 8.5, 9, 10 ], "texture": "#stone_slab_top" },
+        "south": { "uv": [ 7, 8.5, 8.5, 10 ], "texture": "#stone_slab_top" },
+        "west":  { "uv": [ 8.5, 8.5, 9.5, 10 ], "texture": "#stone_slab_top" },
+        "east":  { "uv": [ 6.5, 8.5, 7.5, 10 ], "texture": "#stone_slab_top" }
+    }
+},
+{
+    "from": [ 7, 3, 7.5 ],
+    "to": [ 8.5, 7, 8 ],
+    "faces": {
+        "down":  { "uv": [ 9, 8, 7.5, 7.5 ], "texture": "#hardened_clay_stained_cyan" },
+        "up":    { "uv": [ 7, 7.5, 8.5, 8 ], "texture": "#hardened_clay_stained_cyan" },
+        "north": { "uv": [ 7.5, 9, 9, 13 ], "texture": "#hardened_clay_stained_cyan" },
+        "south": { "uv": [ 7, 9, 8.5, 13 ], "texture": "#hardened_clay_stained_cyan" },
+        "west":  { "uv": [ 7.5, 9, 8, 13 ], "texture": "#hardened_clay_stained_cyan" },
+        "east":  { "uv": [ 8, 9, 8.5, 13 ], "texture": "#hardened_clay_stained_cyan" }
+    }
+},
+{
+    "from": [ 7.5, 3, 7.5 ],
+    "to": [ 8, 6.5, 8 ],
+    "faces": {
+        "down":  { "uv": [ 8.5, 8, 8, 7.5 ], "texture": "#hardened_clay_stained_cyan" },
+        "up":    { "uv": [ 7.5, 7.5, 8, 8 ], "texture": "#hardened_clay_stained_cyan" },
+        "north": { "uv": [ 8, 9.5, 8.5, 13 ], "texture": "#hardened_clay_stained_cyan" },
+        "south": { "uv": [ 7.5, 9.5, 8, 13 ], "texture": "#hardened_clay_stained_cyan" },
+        "west":  { "uv": [ 7.5, 9.5, 8, 13 ], "texture": "#hardened_clay_stained_cyan" },
+        "east":  { "uv": [ 8, 9.5, 8.5, 13 ], "texture": "#hardened_clay_stained_cyan" }
+    }
+},
+{
+    "from": [ 7.5, 3.5, 7 ],
+    "to": [ 8, 7, 8.5 ],
+    "faces": {
+        "down":  { "uv": [ 8.5, 8.5, 8, 7 ], "texture": "#hardened_clay_stained_cyan" },
+        "up":    { "uv": [ 7.5, 7, 8, 8.5 ], "texture": "#hardened_clay_stained_cyan" },
+        "north": { "uv": [ 8, 9, 8.5, 12.5 ], "texture": "#hardened_clay_stained_cyan" },
+        "south": { "uv": [ 7.5, 9, 8, 12.5 ], "texture": "#hardened_clay_stained_cyan" },
+        "west":  { "uv": [ 7, 9, 8.5, 12.5 ], "texture": "#hardened_clay_stained_cyan" },
+        "east":  { "uv": [ 7.5, 9, 9, 12.5 ], "texture": "#hardened_clay_stained_cyan" }
+    }
+},
+{
+    "from": [ 7, 6.5, 7 ],
+    "to": [ 8.5, 7, 7.5 ],
+    "faces": {
+        "down":  { "uv": [ 9, 7.5, 7.5, 7 ], "texture": "#stone_slab_top" },
+        "up":    { "uv": [ 7, 7, 8.5, 7.5 ], "texture": "#stone_slab_top" },
+        "north": { "uv": [ 7.5, 9, 9, 9.5 ], "texture": "#stone_slab_top" },
+        "south": { "uv": [ 7, 9, 8.5, 9.5 ], "texture": "#stone_slab_top" },
+        "west":  { "uv": [ 7, 9, 7.5, 9.5 ], "texture": "#stone_slab_top" },
+        "east":  { "uv": [ 8.5, 9, 9, 9.5 ], "texture": "#stone_slab_top" }
+    }
+},
+{
+    "from": [ 7, 6.5, 8 ],
+    "to": [ 8.5, 7, 8.5 ],
+    "faces": {
+        "down":  { "uv": [ 9, 8.5, 7.5, 8 ], "texture": "#stone_slab_top" },
+        "up":    { "uv": [ 7, 8, 8.5, 8.5 ], "texture": "#stone_slab_top" },
+        "north": { "uv": [ 7.5, 9, 9, 9.5 ], "texture": "#stone_slab_top" },
+        "south": { "uv": [ 7, 9, 8.5, 9.5 ], "texture": "#stone_slab_top" },
+        "west":  { "uv": [ 8, 9, 8.5, 9.5 ], "texture": "#stone_slab_top" },
+        "east":  { "uv": [ 7.5, 9, 8, 9.5 ], "texture": "#stone_slab_top" }
+    }
+},
+{
+    "from": [ 7, 2.5, 7 ],
+    "to": [ 8.5, 3.5, 7.5 ],
+    "faces": {
+        "down":  { "uv": [ 9, 7.5, 7.5, 7 ], "texture": "#stone_slab_top" },
+        "up":    { "uv": [ 7, 7, 8.5, 7.5 ], "texture": "#stone_slab_top" },
+        "north": { "uv": [ 7.5, 12.5, 9, 13.5 ], "texture": "#stone_slab_top" },
+        "south": { "uv": [ 7, 12.5, 8.5, 13.5 ], "texture": "#stone_slab_top" },
+        "west":  { "uv": [ 7, 12.5, 7.5, 13.5 ], "texture": "#stone_slab_top" },
+        "east":  { "uv": [ 8.5, 12.5, 9, 13.5 ], "texture": "#stone_slab_top" }
+    }
+},
+{
+    "from": [ 7, 3, 8 ],
+    "to": [ 8.5, 4, 9 ],
+    "faces": {
+        "down":  { "uv": [ 9, 9, 7.5, 8 ], "texture": "#stone_slab_top" },
+        "up":    { "uv": [ 7, 8, 8.5, 9 ], "texture": "#stone_slab_top" },
+        "north": { "uv": [ 7.5, 12, 9, 13 ], "texture": "#stone_slab_top" },
+        "south": { "uv": [ 7, 12, 8.5, 13 ], "texture": "#stone_slab_top" },
+        "west":  { "uv": [ 8, 12, 9, 13 ], "texture": "#stone_slab_top" },
+        "east":  { "uv": [ 7, 12, 8, 13 ], "texture": "#stone_slab_top" }
+    }
+},
+{
+    "from": [ 7, 3, 6.5 ],
+    "to": [ 8.5, 4, 7.5 ],
+    "faces": {
+        "down":  { "uv": [ 9, 7.5, 7.5, 6.5 ], "texture": "#stone_slab_top" },
+        "up":    { "uv": [ 7, 6.5, 8.5, 7.5 ], "texture": "#stone_slab_top" },
+        "north": { "uv": [ 7.5, 12, 9, 13 ], "texture": "#stone_slab_top" },
+        "south": { "uv": [ 7, 12, 8.5, 13 ], "texture": "#stone_slab_top" },
+        "west":  { "uv": [ 6.5, 12, 7.5, 13 ], "texture": "#stone_slab_top" },
+        "east":  { "uv": [ 8.5, 12, 9.5, 13 ], "texture": "#stone_slab_top" }
+    }
+},
+{
+    "from": [ 7, 2.5, 8 ],
+    "to": [ 8.5, 3.5, 8.5 ],
+    "faces": {
+        "down":  { "uv": [ 9, 8.5, 7.5, 8 ], "texture": "#stone_slab_top" },
+        "up":    { "uv": [ 7, 8, 8.5, 8.5 ], "texture": "#stone_slab_top" },
+        "north": { "uv": [ 7.5, 12.5, 9, 13.5 ], "texture": "#stone_slab_top" },
+        "south": { "uv": [ 7, 12.5, 8.5, 13.5 ], "texture": "#stone_slab_top" },
+        "west":  { "uv": [ 8, 12.5, 8.5, 13.5 ], "texture": "#stone_slab_top" },
+        "east":  { "uv": [ 7.5, 12.5, 8, 13.5 ], "texture": "#stone_slab_top" }
+    }
+},
+{
+    "from": [ 7, 2.5, 7.5 ],
+    "to": [ 8.5, 3, 8 ],
+    "faces": {
+        "down":  { "uv": [ 9, 8, 7.5, 7.5 ], "texture": "#stone_slab_top" },
+        "up":    { "uv": [ 7, 7.5, 8.5, 8 ], "texture": "#stone_slab_top" },
+        "north": { "uv": [ 7.5, 13, 9, 13.5 ], "texture": "#stone_slab_top" },
+        "south": { "uv": [ 7, 13, 8.5, 13.5 ], "texture": "#stone_slab_top" },
+        "west":  { "uv": [ 7.5, 13, 8, 13.5 ], "texture": "#stone_slab_top" },
+        "east":  { "uv": [ 8, 13, 8.5, 13.5 ], "texture": "#stone_slab_top" }
+    }
+}
+]
+}

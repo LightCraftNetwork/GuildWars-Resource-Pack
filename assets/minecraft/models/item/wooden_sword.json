@@ -1,0 +1,321 @@
+{
+"__comment": "Designed by Arraypro with BDcraft Cubik PRO 0.93 Beta - http://bdcraft.net",
+"textures": {
+    "planks_spruce": "blocks/planks_spruce",
+    "map_empty": "items/map_empty"
+},
+"elements": [ 
+{
+    "from": [ 7.5, 7.5, 7.5 ],
+    "to": [ 8.5, 14, 8.5 ],
+    "faces": {
+        "down":  { "uv": [ 8.5, 8.5, 7.5, 7.5 ], "texture": "#planks_spruce" },
+        "up":    { "uv": [ 7.5, 7.5, 8.5, 8.5 ], "texture": "#planks_spruce" },
+        "north": { "uv": [ 7.5, 2, 8.5, 8.5 ], "texture": "#planks_spruce" },
+        "south": { "uv": [ 7.5, 2, 8.5, 8.5 ], "texture": "#planks_spruce" },
+        "west":  { "uv": [ 7.5, 2, 8.5, 8.5 ], "texture": "#planks_spruce" },
+        "east":  { "uv": [ 7.5, 2, 8.5, 8.5 ], "texture": "#planks_spruce" }
+    }
+},
+{
+    "from": [ 7.5, 14, 7.5 ],
+    "to": [ 8.5, 17, 8 ],
+    "faces": {
+        "down":  { "uv": [ 8.5, 8, 7.5, 7.5 ], "texture": "#planks_spruce" },
+        "up":    { "uv": [ 7.5, 7.5, 8.5, 8 ], "texture": "#planks_spruce" },
+        "north": { "uv": [ 7.5, 0, 8.5, 2 ], "texture": "#planks_spruce" },
+        "south": { "uv": [ 7.5, 0, 8.5, 2 ], "texture": "#planks_spruce" },
+        "west":  { "uv": [ 7.5, 0, 8, 2 ], "texture": "#planks_spruce" },
+        "east":  { "uv": [ 8, 0, 8.5, 2 ], "texture": "#planks_spruce" }
+    }
+},
+{
+    "from": [ 7.5, 3, 5.5 ],
+    "to": [ 8.5, 3.5, 7 ],
+    "faces": {
+        "down":  { "uv": [ 8.5, 7, 7.5, 5.5 ], "texture": "#planks_spruce" },
+        "up":    { "uv": [ 7.5, 5.5, 8.5, 7 ], "texture": "#planks_spruce" },
+        "north": { "uv": [ 7.5, 12.5, 8.5, 13 ], "texture": "#planks_spruce" },
+        "south": { "uv": [ 7.5, 12.5, 8.5, 13 ], "texture": "#planks_spruce" },
+        "west":  { "uv": [ 5.5, 12.5, 7, 13 ], "texture": "#planks_spruce" },
+        "east":  { "uv": [ 9, 12.5, 10.5, 13 ], "texture": "#planks_spruce" }
+    }
+},
+{
+    "from": [ 7.5, 2, 9 ],
+    "to": [ 8.5, 3, 10 ],
+    "faces": {
+        "down":  { "uv": [ 8.5, 10, 7.5, 9 ], "texture": "#planks_spruce" },
+        "up":    { "uv": [ 7.5, 9, 8.5, 10 ], "texture": "#planks_spruce" },
+        "north": { "uv": [ 7.5, 13, 8.5, 14 ], "texture": "#planks_spruce" },
+        "south": { "uv": [ 7.5, 13, 8.5, 14 ], "texture": "#planks_spruce" },
+        "west":  { "uv": [ 9, 13, 10, 14 ], "texture": "#planks_spruce" },
+        "east":  { "uv": [ 6, 13, 7, 14 ], "texture": "#planks_spruce" }
+    }
+},
+{
+    "from": [ 7.5, 3, 9.5 ],
+    "to": [ 8.5, 4, 10.5 ],
+    "faces": {
+        "down":  { "uv": [ 8.5, 10.5, 7.5, 9.5 ], "texture": "#planks_spruce" },
+        "up":    { "uv": [ 7.5, 9.5, 8.5, 10.5 ], "texture": "#planks_spruce" },
+        "north": { "uv": [ 7.5, 12, 8.5, 13 ], "texture": "#planks_spruce" },
+        "south": { "uv": [ 7.5, 12, 8.5, 13 ], "texture": "#planks_spruce" },
+        "west":  { "uv": [ 9.5, 12, 10.5, 13 ], "texture": "#planks_spruce" },
+        "east":  { "uv": [ 5.5, 12, 6.5, 13 ], "texture": "#planks_spruce" }
+    }
+},
+{
+    "from": [ 7.5, 3, 5 ],
+    "to": [ 8.5, 4, 6 ],
+    "faces": {
+        "down":  { "uv": [ 8.5, 6, 7.5, 5 ], "texture": "#planks_spruce" },
+        "up":    { "uv": [ 7.5, 5, 8.5, 6 ], "texture": "#planks_spruce" },
+        "north": { "uv": [ 7.5, 12, 8.5, 13 ], "texture": "#planks_spruce" },
+        "south": { "uv": [ 7.5, 12, 8.5, 13 ], "texture": "#planks_spruce" },
+        "west":  { "uv": [ 5, 12, 6, 13 ], "texture": "#planks_spruce" },
+        "east":  { "uv": [ 10, 12, 11, 13 ], "texture": "#planks_spruce" }
+    }
+},
+{
+    "from": [ 7.5, 0.5, 7 ],
+    "to": [ 8.5, 2, 8.5 ],
+    "faces": {
+        "down":  { "uv": [ 8.5, 8.5, 7.5, 7 ], "texture": "#planks_spruce" },
+        "up":    { "uv": [ 7.5, 7, 8.5, 8.5 ], "texture": "#planks_spruce" },
+        "north": { "uv": [ 7.5, 14, 8.5, 15.5 ], "texture": "#planks_spruce" },
+        "south": { "uv": [ 7.5, 14, 8.5, 15.5 ], "texture": "#planks_spruce" },
+        "west":  { "uv": [ 7, 14, 8.5, 15.5 ], "texture": "#planks_spruce" },
+        "east":  { "uv": [ 7.5, 14, 9, 15.5 ], "texture": "#planks_spruce" }
+    }
+},
+{
+    "from": [ 7.5, 3.5, 7.5 ],
+    "to": [ 8.5, 7.5, 8.5 ],
+    "faces": {
+        "down":  { "uv": [ 8.5, 8.5, 7.5, 7.5 ], "texture": "#planks_spruce" },
+        "up":    { "uv": [ 7.5, 7.5, 8.5, 8.5 ], "texture": "#planks_spruce" },
+        "north": { "uv": [ 7.5, 8.5, 8.5, 12.5 ], "texture": "#planks_spruce" },
+        "south": { "uv": [ 7.5, 8.5, 8.5, 12.5 ], "texture": "#planks_spruce" },
+        "west":  { "uv": [ 7.5, 8.5, 8.5, 12.5 ], "texture": "#planks_spruce" },
+        "east":  { "uv": [ 7.5, 8.5, 8.5, 12.5 ], "texture": "#planks_spruce" }
+    }
+},
+{
+    "from": [ 7.5, -3.5, 7.5 ],
+    "to": [ 8.5, 0.5, 8 ],
+    "faces": {
+        "down":  { "uv": [ 8.5, 8, 7.5, 7.5 ], "texture": "#planks_spruce" },
+        "up":    { "uv": [ 7.5, 7.5, 8.5, 8 ], "texture": "#planks_spruce" },
+        "north": { "uv": [ 7.5, 15.5, 8.5, 16 ], "texture": "#planks_spruce" },
+        "south": { "uv": [ 7.5, 15.5, 8.5, 16 ], "texture": "#planks_spruce" },
+        "west":  { "uv": [ 7.5, 15.5, 8, 16 ], "texture": "#planks_spruce" },
+        "east":  { "uv": [ 8, 15.5, 8.5, 16 ], "texture": "#planks_spruce" }
+    }
+},
+{
+    "from": [ 7.5, 3.5, 4.5 ],
+    "to": [ 8.5, 4.5, 5.5 ],
+    "faces": {
+        "down":  { "uv": [ 8.5, 5.5, 7.5, 4.5 ], "texture": "#planks_spruce" },
+        "up":    { "uv": [ 7.5, 4.5, 8.5, 5.5 ], "texture": "#planks_spruce" },
+        "north": { "uv": [ 7.5, 11.5, 8.5, 12.5 ], "texture": "#planks_spruce" },
+        "south": { "uv": [ 7.5, 11.5, 8.5, 12.5 ], "texture": "#planks_spruce" },
+        "west":  { "uv": [ 4.5, 11.5, 5.5, 12.5 ], "texture": "#planks_spruce" },
+        "east":  { "uv": [ 10.5, 11.5, 11.5, 12.5 ], "texture": "#planks_spruce" }
+    }
+},
+{
+    "from": [ 7.5, 3.5, 10.5 ],
+    "to": [ 8.5, 4.5, 11.5 ],
+    "faces": {
+        "down":  { "uv": [ 8.5, 11.5, 7.5, 10.5 ], "texture": "#planks_spruce" },
+        "up":    { "uv": [ 7.5, 10.5, 8.5, 11.5 ], "texture": "#planks_spruce" },
+        "north": { "uv": [ 7.5, 11.5, 8.5, 12.5 ], "texture": "#planks_spruce" },
+        "south": { "uv": [ 7.5, 11.5, 8.5, 12.5 ], "texture": "#planks_spruce" },
+        "west":  { "uv": [ 10.5, 11.5, 11.5, 12.5 ], "texture": "#planks_spruce" },
+        "east":  { "uv": [ 4.5, 11.5, 5.5, 12.5 ], "texture": "#planks_spruce" }
+    }
+},
+{
+    "from": [ 7.5, 11, 7 ],
+    "to": [ 8.5, 13.5, 7.5 ],
+    "faces": {
+        "down":  { "uv": [ 8.5, 7.5, 7.5, 7 ], "texture": "#planks_spruce" },
+        "up":    { "uv": [ 7.5, 7, 8.5, 7.5 ], "texture": "#planks_spruce" },
+        "north": { "uv": [ 7.5, 2.5, 8.5, 5 ], "texture": "#planks_spruce" },
+        "south": { "uv": [ 7.5, 2.5, 8.5, 5 ], "texture": "#planks_spruce" },
+        "west":  { "uv": [ 7, 2.5, 7.5, 5 ], "texture": "#planks_spruce" },
+        "east":  { "uv": [ 8.5, 2.5, 9, 5 ], "texture": "#planks_spruce" }
+    }
+},
+{
+    "from": [ 7.5, 9.5, 8.5 ],
+    "to": [ 8.5, 11.5, 9 ],
+    "faces": {
+        "down":  { "uv": [ 8.5, 9, 7.5, 8.5 ], "texture": "#planks_spruce" },
+        "up":    { "uv": [ 7.5, 8.5, 8.5, 9 ], "texture": "#planks_spruce" },
+        "north": { "uv": [ 7.5, 4.5, 8.5, 6.5 ], "texture": "#planks_spruce" },
+        "south": { "uv": [ 7.5, 4.5, 8.5, 6.5 ], "texture": "#planks_spruce" },
+        "west":  { "uv": [ 8.5, 4.5, 9, 6.5 ], "texture": "#planks_spruce" },
+        "east":  { "uv": [ 7, 4.5, 7.5, 6.5 ], "texture": "#planks_spruce" }
+    }
+},
+{
+    "from": [ 7.5, 5.5, 7 ],
+    "to": [ 8.5, 10, 7.5 ],
+    "faces": {
+        "down":  { "uv": [ 8.5, 7.5, 7.5, 7 ], "texture": "#planks_spruce" },
+        "up":    { "uv": [ 7.5, 7, 8.5, 7.5 ], "texture": "#planks_spruce" },
+        "north": { "uv": [ 7.5, 6, 8.5, 10.5 ], "texture": "#planks_spruce" },
+        "south": { "uv": [ 7.5, 6, 8.5, 10.5 ], "texture": "#planks_spruce" },
+        "west":  { "uv": [ 7, 6, 7.5, 10.5 ], "texture": "#planks_spruce" },
+        "east":  { "uv": [ 8.5, 6, 9, 10.5 ], "texture": "#planks_spruce" }
+    }
+},
+{
+    "from": [ 7.5, 2, 8.5 ],
+    "to": [ 8.5, 8, 9 ],
+    "faces": {
+        "down":  { "uv": [ 8.5, 9, 7.5, 8.5 ], "texture": "#planks_spruce" },
+        "up":    { "uv": [ 7.5, 8.5, 8.5, 9 ], "texture": "#planks_spruce" },
+        "north": { "uv": [ 7.5, 8, 8.5, 14 ], "texture": "#planks_spruce" },
+        "south": { "uv": [ 7.5, 8, 8.5, 14 ], "texture": "#planks_spruce" },
+        "west":  { "uv": [ 8.5, 8, 9, 14 ], "texture": "#planks_spruce" },
+        "east":  { "uv": [ 7, 8, 7.5, 14 ], "texture": "#planks_spruce" }
+    }
+},
+{
+    "from": [ 7.5, 2, 7 ],
+    "to": [ 8.5, 4.5, 7.5 ],
+    "faces": {
+        "down":  { "uv": [ 8.5, 7.5, 7.5, 7 ], "texture": "#planks_spruce" },
+        "up":    { "uv": [ 7.5, 7, 8.5, 7.5 ], "texture": "#planks_spruce" },
+        "north": { "uv": [ 7.5, 11.5, 8.5, 14 ], "texture": "#planks_spruce" },
+        "south": { "uv": [ 7.5, 11.5, 8.5, 14 ], "texture": "#planks_spruce" },
+        "west":  { "uv": [ 7, 11.5, 7.5, 14 ], "texture": "#planks_spruce" },
+        "east":  { "uv": [ 8.5, 11.5, 9, 14 ], "texture": "#planks_spruce" }
+    }
+},
+{
+    "from": [ 7.5, 14, 8 ],
+    "to": [ 8.5, 15.5, 8.5 ],
+    "faces": {
+        "down":  { "uv": [ 8.5, 8.5, 7.5, 8 ], "texture": "#planks_spruce" },
+        "up":    { "uv": [ 7.5, 8, 8.5, 8.5 ], "texture": "#planks_spruce" },
+        "north": { "uv": [ 7.5, 0.5, 8.5, 2 ], "texture": "#planks_spruce" },
+        "south": { "uv": [ 7.5, 0.5, 8.5, 2 ], "texture": "#planks_spruce" },
+        "west":  { "uv": [ 8, 0.5, 8.5, 2 ], "texture": "#planks_spruce" },
+        "east":  { "uv": [ 7.5, 0.5, 8, 2 ], "texture": "#planks_spruce" }
+    }
+},
+{
+    "from": [ 7.5, 2, 7.5 ],
+    "to": [ 8.5, 2.5, 8 ],
+    "faces": {
+        "down":  { "uv": [ 8.5, 8, 7.5, 7.5 ], "texture": "#planks_spruce" },
+        "up":    { "uv": [ 7.5, 7.5, 8.5, 8 ], "texture": "#planks_spruce" },
+        "north": { "uv": [ 7.5, 13.5, 8.5, 14 ], "texture": "#planks_spruce" },
+        "south": { "uv": [ 7.5, 13.5, 8.5, 14 ], "texture": "#planks_spruce" },
+        "west":  { "uv": [ 7.5, 13.5, 8, 14 ], "texture": "#planks_spruce" },
+        "east":  { "uv": [ 8, 13.5, 8.5, 14 ], "texture": "#planks_spruce" }
+    }
+},
+{
+    "from": [ 7.5, 3, 8 ],
+    "to": [ 8.5, 3.5, 8.5 ],
+    "faces": {
+        "down":  { "uv": [ 8.5, 8.5, 7.5, 8 ], "texture": "#planks_spruce" },
+        "up":    { "uv": [ 7.5, 8, 8.5, 8.5 ], "texture": "#planks_spruce" },
+        "north": { "uv": [ 7.5, 12.5, 8.5, 13 ], "texture": "#planks_spruce" },
+        "south": { "uv": [ 7.5, 12.5, 8.5, 13 ], "texture": "#planks_spruce" },
+        "west":  { "uv": [ 8, 12.5, 8.5, 13 ], "texture": "#planks_spruce" },
+        "east":  { "uv": [ 7.5, 12.5, 8, 13 ], "texture": "#planks_spruce" }
+    }
+},
+{
+    "from": [ 7.5, 2, 5.5 ],
+    "to": [ 8.5, 3, 6.5 ],
+    "faces": {
+        "down":  { "uv": [ 8.5, 6.5, 7.5, 5.5 ], "texture": "#planks_spruce" },
+        "up":    { "uv": [ 7.5, 5.5, 8.5, 6.5 ], "texture": "#planks_spruce" },
+        "north": { "uv": [ 7.5, 13, 8.5, 14 ], "texture": "#planks_spruce" },
+        "south": { "uv": [ 7.5, 13, 8.5, 14 ], "texture": "#planks_spruce" },
+        "west":  { "uv": [ 5.5, 13, 6.5, 14 ], "texture": "#planks_spruce" },
+        "east":  { "uv": [ 9.5, 13, 10.5, 14 ], "texture": "#planks_spruce" }
+    }
+},
+{
+    "from": [ 7.5, 2, 6.5 ],
+    "to": [ 8.5, 2.5, 7 ],
+    "faces": {
+        "down":  { "uv": [ 8.5, 7, 7.5, 6.5 ], "texture": "#planks_spruce" },
+        "up":    { "uv": [ 7.5, 6.5, 8.5, 7 ], "texture": "#planks_spruce" },
+        "north": { "uv": [ 7.5, 13.5, 8.5, 14 ], "texture": "#planks_spruce" },
+        "south": { "uv": [ 7.5, 13.5, 8.5, 14 ], "texture": "#planks_spruce" },
+        "west":  { "uv": [ 6.5, 13.5, 7, 14 ], "texture": "#planks_spruce" },
+        "east":  { "uv": [ 9, 13.5, 9.5, 14 ], "texture": "#planks_spruce" }
+    }
+},
+{
+    "from": [ 7.5, 3.5, 9 ],
+    "to": [ 8.5, 4, 9.5 ],
+    "faces": {
+        "down":  { "uv": [ 8.5, 9.5, 7.5, 9 ], "texture": "#planks_spruce" },
+        "up":    { "uv": [ 7.5, 9, 8.5, 9.5 ], "texture": "#planks_spruce" },
+        "north": { "uv": [ 7.5, 12, 8.5, 12.5 ], "texture": "#planks_spruce" },
+        "south": { "uv": [ 7.5, 12, 8.5, 12.5 ], "texture": "#planks_spruce" },
+        "west":  { "uv": [ 9, 12, 9.5, 12.5 ], "texture": "#planks_spruce" },
+        "east":  { "uv": [ 6.5, 12, 7, 12.5 ], "texture": "#planks_spruce" }
+    }
+},
+{
+    "from": [ 7.5, 3, 10.5 ],
+    "to": [ 8.5, 3.5, 11 ],
+    "faces": {
+        "down":  { "uv": [ 8.5, 11, 7.5, 10.5 ], "texture": "#planks_spruce" },
+        "up":    { "uv": [ 7.5, 10.5, 8.5, 11 ], "texture": "#planks_spruce" },
+        "north": { "uv": [ 7.5, 12.5, 8.5, 13 ], "texture": "#planks_spruce" },
+        "south": { "uv": [ 7.5, 12.5, 8.5, 13 ], "texture": "#planks_spruce" },
+        "west":  { "uv": [ 10.5, 12.5, 11, 13 ], "texture": "#planks_spruce" },
+        "east":  { "uv": [ 5, 12.5, 5.5, 13 ], "texture": "#planks_spruce" }
+    }
+},
+{
+    "from": [ 7.5, 12, 8.5 ],
+    "to": [ 8.5, 14, 9 ],
+    "faces": {
+        "down":  { "uv": [ 8.5, 9, 7.5, 8.5 ], "texture": "#planks_spruce" },
+        "up":    { "uv": [ 7.5, 8.5, 8.5, 9 ], "texture": "#planks_spruce" },
+        "north": { "uv": [ 7.5, 2, 8.5, 4 ], "texture": "#planks_spruce" },
+        "south": { "uv": [ 7.5, 2, 8.5, 4 ], "texture": "#planks_spruce" },
+        "west":  { "uv": [ 8.5, 2, 9, 4 ], "texture": "#planks_spruce" },
+        "east":  { "uv": [ 7, 2, 7.5, 4 ], "texture": "#planks_spruce" }
+    }
+},
+{
+    "from": [ 7.5, -2, 8 ],
+    "to": [ 8.5, 0.5, 8.5 ],
+    "faces": {
+        "down":  { "uv": [ 8.5, 8.5, 7.5, 8 ], "texture": "#planks_spruce" },
+        "up":    { "uv": [ 7.5, 8, 8.5, 8.5 ], "texture": "#planks_spruce" },
+        "north": { "uv": [ 7.5, 15.5, 8.5, 16 ], "texture": "#planks_spruce" },
+        "south": { "uv": [ 7.5, 15.5, 8.5, 16 ], "texture": "#planks_spruce" },
+        "west":  { "uv": [ 8, 15.5, 8.5, 16 ], "texture": "#planks_spruce" },
+        "east":  { "uv": [ 7.5, 15.5, 8, 16 ], "texture": "#planks_spruce" }
+    }
+},
+{
+    "from": [ 7.5, 1, 8.5 ],
+    "to": [ 8.5, 2, 9 ],
+    "faces": {
+        "down":  { "uv": [ 8.5, 9, 7.5, 8.5 ], "texture": "#planks_spruce" },
+        "up":    { "uv": [ 7.5, 8.5, 8.5, 9 ], "texture": "#planks_spruce" },
+        "north": { "uv": [ 7.5, 14, 8.5, 15 ], "texture": "#planks_spruce" },
+        "south": { "uv": [ 7.5, 14, 8.5, 15 ], "texture": "#planks_spruce" },
+        "west":  { "uv": [ 8.5, 14, 9, 15 ], "texture": "#planks_spruce" },
+        "east":  { "uv": [ 7, 14, 7.5, 15 ], "texture": "#planks_spruce" }
+    }
+}
+]
+}
