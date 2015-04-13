@@ -1,0 +1,14 @@
+{
+  "music_lounge_jazz": {
+    "sounds": [
+      "music_lounge_jazz1",
+	  "music_lounge_jazz2"
+    ]
+  },
+  "OneTwo": {
+    "sounds": [
+      "one",
+      "two"
+    ]
+  }
+}
